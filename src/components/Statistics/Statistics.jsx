@@ -8,9 +8,7 @@ export const Statistics = ({
   total,
   positivePercentage = 0,
 }) => {
-  return !total ? (
-    ' '
-  ) : (
+  return (
     <div>
       <p>Good : {good}</p>
       <p>Neutral : {neutral}</p>
