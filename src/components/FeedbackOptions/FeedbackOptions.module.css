@@ -1,0 +1,28 @@
+.btnGood {
+  min-width: 60px;
+  height: auto;
+  padding: 10px;
+  margin-left: 15px;
+  border: none;
+  background: green;
+}
+button:hover {
+  transform: scale(1.2);
+}
+
+.btnNeutral {
+  min-width: 60px;
+  height: auto;
+  padding: 10px;
+  margin-left: 15px;
+  border: none;
+  background: yellow;
+}
+.btnBad {
+  min-width: 60px;
+  height: auto;
+  padding: 10px;
+  margin-left: 15px;
+  border: none;
+  background: red;
+}
